@@ -48,6 +48,9 @@ section#cartelas div{
 button{
     height: 30px;
     width: 120px;
+    border-radius: 45px;
+    border-color: rgb(137, 0, 0);
+    cursor: pointer;
 }
 
 section#numeros h2{
@@ -64,4 +67,25 @@ footer{
     align-items: center;
     justify-content: center;
     color: azure;
+}
+
+#iniciarJogoButton{
+    margin-top:110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 45px ;
+    border-color: black;
+}
+
+#cartelas {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#logo {
+    width: 30px;  
 }
